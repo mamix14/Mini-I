@@ -181,7 +181,7 @@ public class JuliaSetFrame extends JFrame {
             java.net.URL imgUrl = getClass().getClassLoader().getResource("uwb_logo.png");
             if (imgUrl != null) {
                 ImageIcon icon = new ImageIcon(imgUrl);
-                Image scaled = icon.getImage().getScaledInstance(80, 80, Image.SCALE_SMOOTH);
+                Image scaled = icon.getImage().getScaledInstance(120, 120, Image.SCALE_SMOOTH);
                 JLabel logoLabel = new JLabel(new ImageIcon(scaled));
                 logoLabel.setAlignmentX(CENTER_ALIGNMENT);
                 p.add(logoLabel);

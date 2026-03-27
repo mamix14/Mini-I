@@ -1,6 +1,12 @@
+<p align="center">
+  <img src="assets/uwb_logo.png" alt="Uniwersytet w Białymstoku" width="120"/>
+</p>
+
 # Zbiory Julii – Wizualizacja i Animacja
 
-Projekt Mini I | Uniwersytet w Białymstoku | Wydział Informatyki
+<p align="center">
+  Projekt Mini I &nbsp;|&nbsp; Uniwersytet w Białymstoku &nbsp;|&nbsp; Wydział Informatyki
+</p>
 
 ---
 
@@ -74,3 +80,13 @@ lub:
 bash compile_and_run.sh
 ```
 
+---
+
+## Autor
+
+| | |
+|---|---|
+| **Student** | mamix14 |
+| **Przedmiot** | Wizualizacja i Animacja Struktur Algorytmicznych w 2D/3D |
+| **Uczelnia** | Uniwersytet w Białymstoku |
+| **Projekt** | Mini I |

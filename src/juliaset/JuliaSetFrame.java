@@ -176,6 +176,19 @@ public class JuliaSetFrame extends JFrame {
     }
 
     private void addFooter(JPanel p) {
+        // Logo UWB
+        try {
+            java.net.URL imgUrl = getClass().getClassLoader().getResource("uwb_logo.png");
+            if (imgUrl != null) {
+                ImageIcon icon = new ImageIcon(imgUrl);
+                Image scaled = icon.getImage().getScaledInstance(80, 80, Image.SCALE_SMOOTH);
+                JLabel logoLabel = new JLabel(new ImageIcon(scaled));
+                logoLabel.setAlignmentX(CENTER_ALIGNMENT);
+                p.add(logoLabel);
+                p.add(Box.createVerticalStrut(4));
+            }
+        } catch (Exception ignored) {}
+
         JLabel footer = new JLabel(
                 "<html><center><small>Uniwersytet w Białymstoku<br>Projekt Mini I</small></center></html>");
         footer.setAlignmentX(CENTER_ALIGNMENT);
